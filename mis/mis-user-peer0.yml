@@ -17,7 +17,7 @@ eureka:
       defaultZone: http://localhost:11000/eureka/,http://localhost:11001/eureka/,http://localhost:11002/eureka/
 logging:
   level:
-    root: info
+    root: debug
 management:
   security:
     enabled: false
