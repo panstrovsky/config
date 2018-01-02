@@ -11,6 +11,9 @@ spring:
   zipkin:
     enabled: true
     base-url: http://localhost:11100
+  sleuth:
+    sampler:
+      percentage: 1.0
 eureka:
   client:
     serviceUrl:
