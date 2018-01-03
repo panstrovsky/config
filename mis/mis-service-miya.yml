@@ -1,0 +1,7 @@
+server:
+  port: 19010
+spring:
+  zipkin:
+    base-url: http://localhost:11100
+  application:
+    name: mis-service-miya
