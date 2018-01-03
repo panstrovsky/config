@@ -8,9 +8,9 @@ spring:
     port: 5672
     username: admin
     password: admin
-  zipkin:
-    enabled: true
-    base-url: http://localhost:11100
+#  zipkin:
+#    enabled: true
+#    base-url: http://localhost:11100
   sleuth:
     sampler:
       percentage: 1.0
@@ -20,7 +20,7 @@ eureka:
       defaultZone: http://localhost:11000/eureka/,http://localhost:11001/eureka/,http://localhost:11002/eureka/
 logging:
   level:
-    root: debug
+    root: info
 management:
   security:
     enabled: false
